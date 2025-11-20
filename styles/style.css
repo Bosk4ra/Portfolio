@@ -1,0 +1,139 @@
+@font-face {
+  font-family: 'VT323-Regular';
+  src: url('VT323-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CalSans-Regular';
+  src: url('CalSans-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+li.hight {
+  background-color: #111;
+}
+
+em {
+  font-size:large;
+}
+
+body {
+    background-color: black;
+    color:white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 32px;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+nav li {
+    float: left;
+  }
+  
+nav li a {
+    font-family: 'VT323-Regular', monospace;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+nav li a:hover {
+    background-color: #111;
+}
+
+p {
+  margin: 3%;
+}
+
+div.addImage{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  overflow: auto;
+  flex-direction: row-reverse;
+}
+
+div.addImage p{
+  margin: 5%;
+}
+
+div.addImage img{
+  margin: 5%;
+}
+
+div.addImage div{
+  margin: 5%;
+}
+
+
+div.paragraphe {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: normal;
+  align-content: stretch;
+}
+div.paragraphe p {
+  background-color: #2d2d2d;
+  padding: 2%;
+  
+}
+
+div.paragraphe p a {
+  color: rgb(154, 66, 248);
+}
+
+
+p.pixel {
+  font-family:'VT323-Regular',monospace ;
+}
+
+footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  flex-direction: row;
+}
+
+
+footer li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #2d2d2d;
+}
+
+footer li p {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+footer li a:hover {
+  background-color: #111;
+}
